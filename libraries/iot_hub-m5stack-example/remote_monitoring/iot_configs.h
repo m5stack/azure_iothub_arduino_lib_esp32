@@ -7,15 +7,15 @@
 /**
  * WiFi setup
  */
-#define IOT_CONFIG_WIFI_SSID            "wifi-11"
-#define IOT_CONFIG_WIFI_PASSWORD        "sumof1+1=2"
+#define IOT_CONFIG_WIFI_SSID            "yourssid"
+#define IOT_CONFIG_WIFI_PASSWORD        "yourpassword"
 
 /**
  * Find under Microsoft Azure IoT Suite -> DEVICES -> <your device> -> Device Details and Authentication Keys
  * String containing Hostname, Device Id & Device Key in the format:
  *  "HostName=<host_name>;DeviceId=<device_id>;SharedAccessKey=<device_key>"    
  */
-#define IOT_CONFIG_CONNECTION_STRING    "HostName=test003.azure-devices.cn;DeviceId=test003;SharedAccessKey=V5Kv2bAYdbycVzbn13MccL8I+iTU6q/1M85/4S6d83g="
+#define IOT_CONFIG_CONNECTION_STRING    "yourconnectstring"
 
 /** 
  * Choose the transport protocol

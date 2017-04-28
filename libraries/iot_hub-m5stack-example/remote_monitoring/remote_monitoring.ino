@@ -10,12 +10,8 @@
 #include <WiFiUdp.h>
 
 #include <AzureIoTHub.h>
-#if defined(IOT_CONFIG_MQTT)
-    #include <AzureIoTProtocol_MQTT.h>
-#elif defined(IOT_CONFIG_HTTP)
-    #include <AzureIoTProtocol_HTTP.h>
-#endif
-    #include <AzureIoTProtocol_HTTP.h>
+#include <AzureIoTProtocol_MQTT.h>
+#include <AzureIoTProtocol_HTTP.h>
 #include "remote_monitoring.h"
 
 static char ssid[] = IOT_CONFIG_WIFI_SSID;
